@@ -1,0 +1,30 @@
+# Android build output
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.jar
+
+# Build directories
+/build/
+/app/build/
+/.gradle/
+
+# Generated files
+/generated/
+/out/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local configuration
+local.properties

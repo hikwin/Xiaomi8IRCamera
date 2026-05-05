@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 背景：深色 -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M0,0h108v108h-108z" />
+    
+    <!-- 外圈波纹：红外辐射效果 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF4500"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.3"
+        android:pathData="M54,54m-36,0a36,36 0,1 1,72 0a36,36 0,1 1,-72 0" />
+    
+    <!-- 中圈波纹 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF6347"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.5"
+        android:pathData="M54,54m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0" />
+    
+    <!-- 内圈波纹 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF8C00"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.7"
+        android:pathData="M54,54m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+    
+    <!-- 摄像头主体 -->
+    <path
+        android:fillColor="#2D2D3F"
+        android:pathData="M38,42h32v24h-32z" />
+    
+    <!-- 摄像头圆角 -->
+    <path
+        android:fillColor="#2D2D3F"
+        android:pathData="M34,46h4v16h-4z" />
+    <path
+        android:fillColor="#2D2D3F"
+        android:pathData="M70,46h4v16h-4z" />
+    
+    <!-- 镜头外圈 -->
+    <path
+        android:fillColor="#404050"
+        android:pathData="M54,46m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+    
+    <!-- 镜头内圈 -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M54,46m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+    
+    <!-- 镜头中心：红外光点 -->
+    <path
+        android:fillColor="#FF4500"
+        android:pathData="M54,46m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    
+    <!-- 红外光点高光 -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M54,46m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    
+    <!-- 红外波纹线条（从镜头向外辐射） -->
+    <path
+        android:fillColor="#FF4500"
+        android:strokeColor="#FF4500"
+        android:strokeWidth="1.5"
+        android:pathData="M64,46 L72,46" />
+    <path
+        android:fillColor="#FF6347"
+        android:strokeColor="#FF6347"
+        android:strokeWidth="1.5"
+        android:pathData="M66,42 L74,38" />
+    <path
+        android:fillColor="#FF6347"
+        android:strokeColor="#FF6347"
+        android:strokeWidth="1.5"
+        android:pathData="M66,50 L74,54" />
+    
+    <!-- 顶部红外指示灯 -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M54,38m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    
+    <!-- 底部装饰线 -->
+    <path
+        android:fillColor="#404050"
+        android:pathData="M42,68h24v2h-24z" />
+</vector>
